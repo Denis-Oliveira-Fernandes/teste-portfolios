@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "53783440-f21b-47de-a916-fe387156bd4a",
+		"name": "Portfolios",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6962212"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5111/api/Portfolios",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"MarketValue\": 800000,\r\n        \"Type\": \"Stock\"\r\n    },\r\n    {\r\n        \"MarketValue\": 1500000,\r\n        \"Type\": \"Bond\"\r\n    },\r\n    {\r\n        \"MarketValue\": 6000000,\r\n        \"Type\": \"Derivative\"\r\n    },\r\n    {\r\n        \"MarketValue\": 300000,\r\n        \"Type\": \"Stock\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5111/api/Portfolios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5111",
+					"path": [
+						"api",
+						"Portfolios"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
